@@ -14,28 +14,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="estilos.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <title>Presentaci&oacute;n de Jos&eacute; Ram&oacute;n Castelo Pardo</title>
 
 </head>
 
 
-<body>
+<body style="font-family: 'Open Sans';"">
 
   <!--Menu-->
-  <a name="arriba"></a>
-  <div class="menu">
-    <div class="col1" style="background: #ffffcc;"><a href="#datos">Datos&nbsp;Personales</a></div>
-    <div class="col2" style="background: #ffffcc;"><a href="#experiencia">Experiencia&nbsp;Profesional</a></div>
-    <div class="col3" style="background: #ffffcc;"><a href="#conocimientos">Conocimientos</a></div>
-    <div class="col4" style="background: #ffffcc;"><a href="#formacion">Formaci&oacute;n</a></div>
+  <a name=" arriba"></a>
+  <div class="menu" style="width: 100%;">
+    <div class="col1"><a href="#datos">Datos&nbsp;Personales</a></div>
+    <div class="col1"><a href="#experiencia">Experiencia&nbsp;Profesional</a></div>
+    <div class="col1"><a href="#conocimientos">Conocimientos</a></div>
+    <div class="col1"><a href="#formacion">Formaci&oacute;n</a></div>
   </div>
-  <a name="arriba"></a><br>
-  <br><br>
   <!-- Datos Personales -->
   <a name="personales"></a>
   <div id="datospersonales" class="w3-panel w3-white w3-card-4" style="display:table;">
     <div class="celdaEncabezado" style="width: 100%; display:table-row;">
-      <span class="heading">DATOS PERSONALES</span>
+      <div class="celdaTitulo">
+        <span class="heading">DATOS PERSONALES</span>
+      </div>
     </div>
     <!-- Nombre -->
 
@@ -52,7 +54,7 @@
     <div id="direccion" class="lineapeq" style="width: 100%; display:table-row;">
       <!--		 <div id="izquierdapeq" class="celdaLiteral" style="padding-bottom:34px;">Direcci&oacute;n&nbsp;</div> -->
       <div class="celdaLiteral" style="width: 30%;">
-        <span class="letraLiteral">Direcci&oacute;n<br /><br /><br /></span>
+        <span class="letraLiteral">Direcci&oacute;n</span>
       </div>
       <div class="celdaContenido" style="width:70%;">
         <span class="resalte">Avda. Vilaboa, 80 - 3 Izda. <br />
@@ -99,77 +101,92 @@
     </div>
     <!-- </article> -->
     <footer>
-      <a name="experiencia"></a>
       <a href="#arriba">Inicio</a>
     </footer>
   </div>
+  <br />
+  <a name="experiencia"></a>
 
-  <!-- Experiencia profesional -->
-  <div id="cabecerapeq" class="celdaEncabezado">
-    <span class="heading">EXPERIENCIA PROFESIONAL</span>
-  </div>
+  <div id="experiencia" class="w3-panel w3-white w3-card-4" style="display:table;">
 
-  <!-- Experiencia -->
+    <!-- Experiencia profesional -->
+    <div class="celdaEncabezado" style="width: 100%; display:table-row;">
+      <span class="heading">EXPERIENCIA PROFESIONAL</span>
+    </div>
 
-  <!-- Azkar -->
-  <div id="lineapeq">
-    <div id="izquierdapeq" class="tableHead1">
-      <span class="resalte">Desde Marzo 1990 hasta la actualidad</span>
+    <!-- Experiencia -->
+
+    <!-- SUBEL -->
+    <div id="subel" class="lineapeq" style="width: 100%; display:table-row;">
+      <div class="celdaLiteral" style="width: 30%;">
+        <span class="letraLiteral">En la actualidad</span>
+      </div>
+      <div class="celdaContenido" style="width: 70%;">
+        Responsable de Inform&aacute;tica de <b>Inversiones SUBEL, S.L.</b>, realizando las siguientes
+        tareas en empresas del grupo:<br>
+        <ul>
+          <li>Labores de an&aacute;lisis, desarrollo e implantaci&oacute;n de
+            sistemas inform&aacute;ticos.</li>
+          <li>Asesor&iacute;a y relaciones con proveedores. </li>
+          <li></li>
+        </ul>
+      </div>
     </div>
-    <div id="derechapeq" class="celdaContenido">
-      Departamento de Inform&aacute;tica del grupo Azkar, realizando las siguientes
-      tareas en empresas del grupo:<br>
-      <ul>
-        <li> Responsable de Inform&aacute;tica en <i>Inversiones SUBEL, S.L.</i>,
-          realizando labores de an&aacute;lisis, desarrollo e implantaci&oacute;n de
-          sistemas inform&aacute;ticos, junto con las de asesor&iacute;a y relaciones con
-          proveedores. </li>
-        <li> Responsable de implantaci&oacute;n de la red local en <i>Vivienda Confort
-            Coru&ntilde;a</i>, realizando adem&aacute;s labores de asesor&iacute;a en cuanto
-          a sistemas inform&aacute;ticos. </li>
-        <li> Soporte inform&aacute;tico de las agencias de <i>Transportes
-            Azkar en La Coru&ntilde;a, Santiago, Ferrol y Lugo</i>, realizando labores de
-          mantenimiento del sistema inform&aacute;tico, implantaci&oacute;n de nuevos
-          programas y relaciones con proveedores. </li>
-        <li>Integraci&oacute;n dentro del Departamento de Sistemas de <i>Transportes
-            Azkar</i> participando en el an&aacute;lisis y desarrollo de su sistema
-          inform&aacute;tico actual (AzkarNet II) en RM-COBOL para sistemas operativos
-          Unix/Linux. Siendo en la actualidad coordinador responsable de un equipo
-          de 4 desarrolladores.</li>
-        <li>Participaci&oacute;n en la fase de dise&ntilde;o, an&aacute;lisis e
-          integraci&oacute;n del nuevo sistema inform&aacute;tico corporativo de la
-          divisi&oacute;n de Distribuci&oacute;n de <i>Transportes
-            Azkar</i>.
-        </li>
-      </ul>
+
+
+    <!-- Azkar -->
+    <div id="azkar" class="lineapeq" style="width: 100%; display:table-row;">
+      <div class="celdaLiteral" style="width: 30%;">
+        <span class="letraLiteral">Desde Marzo 1990 hasta la actualidad</span>
+      </div>
+      <div class="celdaContenido" style="width: 70%;">
+        Departamento de Inform&aacute;tica del grupo Azkar, realizando las siguientes
+        tareas en empresas del grupo:<br>
+        <ul>
+          <li> Soporte inform&aacute;tico de las agencias de <i>Transportes
+              Azkar en La Coru&ntilde;a, Santiago, Ferrol y Lugo</i>, realizando labores de
+            mantenimiento del sistema inform&aacute;tico, implantaci&oacute;n de nuevos
+            programas y relaciones con proveedores. </li>
+          <li>Integraci&oacute;n dentro del Departamento de Sistemas de <i>Transportes
+              Azkar</i> participando en el an&aacute;lisis y desarrollo de su sistema
+            inform&aacute;tico actual (AzkarNet II) en RM-COBOL para sistemas operativos
+            Unix/Linux. Siendo en la actualidad coordinador responsable de un equipo
+            de 4 desarrolladores.</li>
+          <li>Participaci&oacute;n en la fase de dise&ntilde;o, an&aacute;lisis e
+            integraci&oacute;n del nuevo sistema inform&aacute;tico corporativo de la
+            divisi&oacute;n de Distribuci&oacute;n de <i>Transportes
+              Azkar</i>.
+          </li>
+        </ul>
+      </div>
     </div>
+
+    <!-- CIDS / BIOS -->
+    <div id="bios" class="lineapeq" style="width: 100%; display:table-row;">
+      <div class="celdaLiteral" style="width: 30%;">
+        <span class="letraLiteral">Desde 1987 hasta Marzo 1990</span>
+      </div>
+      <div class="celdaContenido" style="width: 70%;">
+        Programador en las empresas de inform&aacute;tica <i>CIDS, S.A.</i> y <i>BIOS, S.A.</i>, realizando tareas de
+        desarrollo de programas de gesti&oacute;n en COBOL para sistemas multipuesto bajo los sistemas operativos Unix
+        y Xenix, y desarrollos en Basic para sistema operativo MS-DOS.
+      </div>
+    </div>
+    <!-- Bodelon -->
+    <div id="bodelon" class="lineapeq" style="width: 100%; display:table-row;">
+      <div class="celdaLiteral" style="width: 30%;">
+        <span class="letraLiteral"> Enero a Julio de 1986</span>
+      </div>
+      <div class="celdaContenido" style="width: 70%;">
+        Operador inform&aacute;tico en la empresa de distribuci&oacute;n <i>Bodel&oacute;n Camba, S.A.</i>
+      </div>
+    </div>
+    <footer>
+      <a href="#arriba">Inicio</a>
+    </footer>
   </div>
-  <!-- CIDS / BIOS -->
-  <div id="lineapeq">
-    <div id="izquierdapeq" class="tableHead1">
-      <span class="resalte">Desde 1987 hasta Marzo 1990</span>
-    </div>
-    <div id="derechapeq" class="celdaContenido">
-      Programador en las empresas de inform&aacute;tica <i>CIDS, S.A.</i> y <i>BIOS,
-        S.A.</i>, realizando tareas de desarrollo de programas de gesti&oacute;n en
-      COBOL para sistemas multipuesto bajo los sistemas operativos Unix y Xenix,
-      y desarrollos en Basic para sistema operativo MS-DOS.
-    </div>
-  </div>
-  <!-- Bodelon -->
-  <div id="lineapeq">
-    <div id="izquierdapeq" class="tableHead1">
-      <span class="resalte"> Enero a Julio de 1986</span>
-    </div>
-    <div id="derechapeq" class="celdaContenido">
-      Operador inform&aacute;tico en la empresa de distribuci&oacute;n,
-      <i>Bodel&oacute;n Camba, S.A.</i>
-    </div>
-  </div>
-  <div id="inicio">
-    <a name="conocimientos"></a>
-    <a href="#arriba">Inicio</a>
-  </div>
+  <a name="conocimientos"></a>
+
   <!-- Conocimientos -->
   <div id="cabecerapeq" class="celdaEncabezado">
     <span class="heading">CONOCIMIENTOS</span>
@@ -177,7 +194,7 @@
 
   <!-- Sistemas Operativos -->
   <div id="lineapeq">
-    <div id="izquierdapeq" class="tableHead1">
+    <div id="izquierdapeq" class="celdaLiteral">
       <span class="resalte">Sistemas operativos</span>
     </div>
     <div id="derechapeq" class="celdaContenido">
@@ -190,7 +207,7 @@
 
   <!-- Lenguajes -->
   <div id="lineapeq">
-    <div id="izquierdapeq" class="tableHead1">
+    <div id="izquierdapeq" class="celdaLiteral">
       <span class="resalte">Lenguajes de programaci&oacute;n</span>
     </div>
     <div id="derechapeq" class="celdaContenido">
@@ -212,7 +229,7 @@
   </div>
   <!-- Paquetes Ofimaticos -->
   <div id="lineapeq">
-    <div id="izquierdapeq" class="tableHead1 resalte">
+    <div id="izquierdapeq" class="celdaLiteral resalte">
       Paquetes Ofim&aacute;ticos
     </div>
     <div id="derechapeq" class="celdaContenido">
@@ -225,7 +242,7 @@
 
   <!-- Otras herramientas -->
   <div id="lineapeq">
-    <div id="izquierdapeq" class="tableHead1">
+    <div id="izquierdapeq" class="celdaLiteral">
       <span class="resalte">Otras herramientas</span>
     </div>
     <div id="derechapeq" class="celdaContenido">
@@ -237,7 +254,7 @@
 
   <!-- Idiomas -->
   <div id="lineapeq">
-    <div id="izquierdapeq" class="tableHead1">
+    <div id="izquierdapeq" class="celdaLiteral">
       <span class="resalte">Idiomas</span>
     </div>
     <div id="derechapeq" class="celdaContenido">

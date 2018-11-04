@@ -1,11 +1,7 @@
 body {
   background: #ffffff;
-  font-family: Verdana, Lucida, sans-serif;
-}
-body,
-tr,
-td {
   font-size: 90%;
+  font-family: 'Open Sans', Verdana, Lucida, sans-serif;
 }
 
 div {
@@ -13,7 +9,7 @@ div {
   margin: 0px;
   white-space: nowrap;
   /* float: left; */
-  background-color: #ffffe6;
+  /* background-color: #ffffe6; */
   display: inline-block;
   border: 1px #ccffff dotted;
 }
@@ -30,12 +26,15 @@ div {
 }
 
 #datospersonales:hover {
-  font-style: italic;
+  font-family: 'Roboto';
+  font-size: 110%;
 }
+
 a {
   color: #003399;
   text-decoration: none;
 }
+
 a:hover {
   color: #ff0000;
   background: #18ebdd;
@@ -45,15 +44,22 @@ a:hover {
   /* background: #ffeeff; */
   background: #ffffff;
 }
+
 .celdaContenido {
   background: #eeeeee;
+  display: table-cell;
 }
-.tableHead1 {
-  background: #dcdcdc;
-}
+
 .celdaLiteral {
   background: #dcdcdc;
+  display: table-cell;
 }
+
+.celdaTitulo {
+  display:table-cell;
+  width: 100%;
+}
+
 .letraLiteral {
   text-align: right;
   display: block;
@@ -64,45 +70,37 @@ a:hover {
   color: #ffffff;
   font-weight: bold;
 }
+
 .heading {
+  font-family: 'Open Sans';
   font-size: 120%;
   font-weight: bold;
   text-align: center;
-  display: block;
+  /* display: block; */
   width: 100%;
 }
+
+
 .resalte {
   font-weight: bold;
 }
+
 .menu {
   width: auto;
   left: 0%;
   border: 1px solid #ffffff;
+  display: table;
 }
+
 .col1 {
-  width: 23%;
-  position: absolute;
+  width: 25%;
+  background: #ffffcc;
+  /* position: absolute; */
+  float: left;
   left: 1%;
   text-align: center;
 }
-.col2 {
-  width: 23%;
-  position: absolute;
-  left: 25%;
-  text-align: center;
-}
-.col3 {
-  width: 23%;
-  position: absolute;
-  left: 50%;
-  text-align: center;
-}
-.col4 {
-  width: 23%;
-  position: absolute;
-  left: 75%;
-  text-align: center;
-}
+
 #cabecerapeq {
   width: 99%;
   text-align: center;
@@ -110,25 +108,29 @@ a:hover {
   padding-top: 7px;
   padding-bottom: 7px;
 }
+
 #lineapeq {
   /* width: 99%; */
   left: 0px;
   border-bottom: 1px solid #ffffff;
   /* position: static; */
   line-height: 20px;
-  display: table-row;
+  /* display: table-row; */
 }
-#izquierdapeq {
+
+/* #izquierdapeq {
   width: 30%;
   left: 0%;
   float: left;
   text-align: right;
 }
+
 #derechapeq {
   width: 70%;
   float: left;
   left: 40%;
-}
+} */
+
 #inicio {
   padding-top: 30px;
 }
