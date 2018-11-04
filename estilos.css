@@ -1,98 +1,134 @@
 body {
-background : #ffffff;
-font-family : Verdana,Lucida,sans-serif;
+  background: #ffffff;
+  font-family: Verdana, Lucida, sans-serif;
 }
-body,tr,td {
-font-size : 90%;
+body,
+tr,
+td {
+  font-size: 90%;
+}
+
+div {
+  padding: 2px;
+  margin: 0px;
+  white-space: nowrap;
+  /* float: left; */
+  background-color: #ffffe6;
+  display: inline-block;
+  border: 1px #ccffff dotted;
+}
+
+#datospersonales,
+#nombre,
+#direccion,
+#telefono,
+#email,
+#edad,
+#permiso,
+#vehiculo {
+  width: 100%;
+}
+
+#datospersonales:hover {
+  font-style: italic;
 }
 a {
-color : #003399;
-text-decoration : none;
+  color: #003399;
+  text-decoration: none;
 }
 a:hover {
-color : #ff0000;
-background : #18EBDD;
+  color: #ff0000;
+  background: #18ebdd;
 }
 
-.titleBarTop {
-background : #ffeeff;
+.celdaEncabezado {
+  /* background: #ffeeff; */
+  background: #ffffff;
 }
-.tableBody1 {
-background : #eeeeee;
+.celdaContenido {
+  background: #eeeeee;
 }
 .tableHead1 {
-background : #dcdcdc;
+  background: #dcdcdc;
 }
-.tableHeadP {
-background : #dcdcdc;
+.celdaLiteral {
+  background: #dcdcdc;
 }
+.letraLiteral {
+  text-align: right;
+  display: block;
+}
+
 .title {
-font-size : 200%;
-color : #ffffff;
-font-weight : bold;
+  font-size: 200%;
+  color: #ffffff;
+  font-weight: bold;
 }
 .heading {
-font-size : 120%;
-font-weight : bold;
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  width: 100%;
 }
 .resalte {
-font-weight : bold;
+  font-weight: bold;
 }
 .menu {
-width: auto;
-left: 0%;
-border: 1px solid #ffffff;
+  width: auto;
+  left: 0%;
+  border: 1px solid #ffffff;
 }
 .col1 {
-width: 23%;
-position:absolute;
-left:1%;
-text-align:center;
+  width: 23%;
+  position: absolute;
+  left: 1%;
+  text-align: center;
 }
 .col2 {
-width: 23%;
-position:absolute;
-left:25%;
-text-align:center;
+  width: 23%;
+  position: absolute;
+  left: 25%;
+  text-align: center;
 }
 .col3 {
-width: 23%;
-position:absolute;
-left:50%;
-text-align:center;
+  width: 23%;
+  position: absolute;
+  left: 50%;
+  text-align: center;
 }
 .col4 {
-width: 23%;
-position:absolute;
-left:75%;
-text-align:center;
-
+  width: 23%;
+  position: absolute;
+  left: 75%;
+  text-align: center;
 }
 #cabecerapeq {
-width: 99%; 
-text-align:center;
-left: 0px;
-padding-top: 7px;
-padding-bottom: 7px;
+  width: 99%;
+  text-align: center;
+  left: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 #lineapeq {
-width:99%;
-left:0px;
-border-bottom: 1px solid #ffffff;
-position:static;
-line-height: 20px;
+  /* width: 99%; */
+  left: 0px;
+  border-bottom: 1px solid #ffffff;
+  /* position: static; */
+  line-height: 20px;
+  display: table-row;
 }
 #izquierdapeq {
-width:30%;
-left:0%;
-float:left;
+  width: 30%;
+  left: 0%;
+  float: left;
+  text-align: right;
 }
 #derechapeq {
-width: 70%;
-float:left;
-left: 40%;
+  width: 70%;
+  float: left;
+  left: 40%;
 }
 #inicio {
-padding-top:30px;
-
+  padding-top: 30px;
 }
