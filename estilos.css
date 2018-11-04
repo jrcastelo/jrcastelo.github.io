@@ -3,16 +3,13 @@ body {
   font-size: 90%;
   font-family: 'Open Sans', Verdana, Lucida, sans-serif;
 }
-
+/* 
 div {
   padding: 2px;
   margin: 0px;
   white-space: nowrap;
-  /* float: left; */
-  /* background-color: #ffffe6; */
-  display: inline-block;
   border: 1px #ccffff dotted;
-}
+} */
 
 #datospersonales,
 #nombre,
@@ -25,11 +22,12 @@ div {
   width: 100%;
 }
 
-#datospersonales:hover {
+#datospersonales:hover,
+#datosexperiencia:hover {
   font-family: 'Roboto';
   font-size: 110%;
 }
-
+ 
 a {
   color: #003399;
   text-decoration: none;
@@ -47,11 +45,15 @@ a:hover {
 
 .celdaContenido {
   background: #eeeeee;
+  width:70%;
+  padding:1%;
   display: table-cell;
-}
+  }
 
 .celdaLiteral {
   background: #dcdcdc;
+  width:100px;
+  padding:1%;
   display: table-cell;
 }
 
@@ -101,6 +103,16 @@ a:hover {
   text-align: center;
 }
 
+.cleaner {
+  clear:both;
+  height:1px;
+  font-size:1px;
+  border:none;
+  margin:0; padding:0;
+  background:transparent;
+  display:none;
+  }
+
 #cabecerapeq {
   width: 99%;
   text-align: center;
@@ -114,6 +126,7 @@ a:hover {
   left: 0px;
   border-bottom: 1px solid #ffffff;
   /* position: static; */
+  position: relative;
   line-height: 20px;
   /* display: table-row; */
 }
