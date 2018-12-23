@@ -11,6 +11,8 @@ div {
   border: 1px #ccffff dotted;
 } */
 
+#datosconocimientos,
+#datosformacion,
 #datospersonales,
 #nombre,
 #direccion,
@@ -23,6 +25,8 @@ div {
 }
 
 #datospersonales:hover,
+#datosconocimientos:hover,
+#datosformacion  :hover,
 #datosexperiencia:hover {
   font-family: 'Roboto';
   font-size: 110%;
