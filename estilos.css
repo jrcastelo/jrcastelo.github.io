@@ -51,14 +51,17 @@ a:hover {
 .celdaContenido {
   background: #eeeeee;
   width:70%;
-  padding:1%;
+  padding-left:1%;
+  padding-bottom: 1%;
+
   display: table-cell;
   }
 
 .celdaLiteral {
   background: #dcdcdc;
   width:100px;
-  padding:1%;
+  padding-right:1%;
+  padding-bottom: 1%;
   display: table-cell;
 }
 
@@ -132,7 +135,7 @@ a:hover {
   border-bottom: 1px solid #ffffff;
   /* position: static; */
   position: relative;
-  line-height: 20px;
+  line-height: 0px;
   /* display: table-row; */
 }
 
